@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.planetas-container {
+  border: #222;
+  display: flex;
+  width: 100%;
+}
+
+.block-planetas {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.txt-planeta {
+  font-size: 50px;
+}
+
+.img-planeta {
+  animation: loading 40s linear infinite;
+  width: 90%;
+}
+
+@keyframes loading {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

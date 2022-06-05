@@ -1,0 +1,22 @@
+.missions-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.missions-cards {
+  background-color: #555;
+  border: 3px solid white;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 10px;
+  width: 13%;
+}
+
+.separa-cards {
+  background-color: #111;
+  height: 120px;
+  margin: 5px;
+}
